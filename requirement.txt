@@ -1,0 +1,30 @@
+streamlist 
+streamlit is used to build web UI for your pythin app
+creates buttons,textboxes,chain inputs
+
+langchain
+langchain is a framework for our application
+uses llms,documents,embedding,prompts,chains
+
+langchain-community
+we are using community for extra integration maintained by this library
+for example,ollama connectors,document loaders,hugging face embeddings
+
+langchain-core
+core building blocks of langchain
+runnables,output parsers,prompt template
+
+ollama
+runs local LLMs on your PC 
+
+ACTUAL WORK
+langchain talks to ollama --> ollama talks to model(gemma2:2b)
+
+
+ONELINERS 
+
+1.STREAMLIT --> UI
+2.LANGCHAIN --> AI Logic
+3.LANGCHAIN-COMMUNITY --> Integration
+4.LANGCHAIN-CORE --> Integral Engine
+5.OLLAMA --> Local LLM Runner
